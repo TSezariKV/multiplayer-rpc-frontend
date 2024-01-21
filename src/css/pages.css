@@ -1,0 +1,68 @@
+/* Login */
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.login h1 {
+    font-size: 60px;
+}
+.login form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+}
+.login form input {
+    padding: 10px;
+    font-size: 25px;
+}
+.login form button {
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* Main Menu */
+.main-menu {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-menu h1 {
+    font-size: 150px;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.main-menu .buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.main-menu .buttons-container button {
+    cursor: pointer;
+}
+.main-menu h2 {
+    font-size: 30px;
+}
+.main-menu .start-buttons button {
+    padding: 10px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.main-menu .start-buttons {
+    display: flex;
+    flex-direction: column;
+}
+.main-menu .logout-button {
+    padding: 5px;
+}
